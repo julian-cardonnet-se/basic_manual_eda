@@ -1,0 +1,9 @@
+[project]
+name = "manuals"
+version = "0.1.0"
+description = "PDF data exploration utilities."
+requires-python = ">=3.11"
+dependencies = [
+    "pypdf[crypto]>=6.2.0",
+    "rich>=14.2.0",
+]
